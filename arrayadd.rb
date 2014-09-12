@@ -19,7 +19,7 @@ end
    
 # Return True if any combination of numbers in the array can be added up to equal the largest number in the array
 # Otherwise Return False 
-# The array will not be empty, will not contain all the same elements, and may contain negative numbers.
+# The array should not be empty, shou;d not contain all the same elements, and can contain negative numbers.
 print "Enter the array : "
 print ArrayAdditionI(gets.chomp.split.map {|i| i.to_i})
 
